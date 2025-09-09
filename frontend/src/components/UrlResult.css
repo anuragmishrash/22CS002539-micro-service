@@ -1,0 +1,46 @@
+.url-result {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.result-container a {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  text-decoration: none;
+  color: #2196F3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-container button {
+  padding: 10px 15px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+.result-container button:hover {
+  background-color: #0b7dda;
+}
+
+.expiry-info {
+  color: #666;
+  font-size: 14px;
+  margin-top: 10px;
+}
